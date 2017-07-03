@@ -23,7 +23,7 @@ class HomeController extends Controller
 {
     public function index()
     {
-        var_dump('1111');
+        var_dump('22222222');
 
         return Admin::content(function (Content $content) {
 
