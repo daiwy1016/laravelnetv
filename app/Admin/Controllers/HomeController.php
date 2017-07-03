@@ -23,6 +23,8 @@ class HomeController extends Controller
 {
     public function index()
     {
+        var_dump('1111');
+
         return Admin::content(function (Content $content) {
 
             $content->header('Dashboard');
