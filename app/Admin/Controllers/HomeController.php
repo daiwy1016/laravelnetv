@@ -36,7 +36,7 @@ class HomeController extends Controller
             });
 
             $content->row(function (Row $row) {
-
+                    echo 111;
                 $row->column(6, function (Column $column) {
 
                     $tab = new Tab();
