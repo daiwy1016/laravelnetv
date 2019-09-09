@@ -181,6 +181,7 @@ return [
         * 我新增服务
         */
         Encore\Admin\Providers\AdminServiceProvider::class,
+        Laravel\Passport\PassportServiceProvider::class,
 
     ],
 

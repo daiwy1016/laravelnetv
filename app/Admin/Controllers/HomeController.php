@@ -23,7 +23,7 @@ class HomeController extends Controller
 {
     public function index()
     {
-        var_dump('22222222');
+
 
         return Admin::content(function (Content $content) {
 
@@ -38,7 +38,7 @@ class HomeController extends Controller
             });
 
             $content->row(function (Row $row) {
-                    echo 111;
+
                 $row->column(6, function (Column $column) {
 
                     $tab = new Tab();
